@@ -49,15 +49,4 @@ public struct NOBottomSheetModifier:ViewModifier{
             self.bottomSheetHeight = value.height
         }
     }
-    
-}
-
-
-class SizePreferenceKey:PreferenceKey{
-    typealias Value = CGSize
-    static var defaultValue: CGSize = CGSize(width: 0,height: 0)
-    
-    static func reduce(value: inout CGSize, nextValue: () -> CGSize) {
-        value = nextValue()
-    }
 }

@@ -114,26 +114,3 @@ extension NONavigationBar{
         return containerWidth * 2 > barWidth
     }
 }
-
-
-
-
-
-#if DEBUG
-struct NONavigationBarSimple_Previews: PreviewProvider {
-    static var previews: some View {
-        VStack{
-            NONavigationBar().title("Main")
-                .subTitle("sub Main")
-                .showNavigationBack()
-                .trailingContainer {
-                    Text("menu1")
-                    Text("menu2")
-                }
-            Text("body").font(.body)
-            Spacer()
-        }
-        .environmentObject(NONavigation())
-    }
-}
-#endif

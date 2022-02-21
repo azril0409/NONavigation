@@ -51,10 +51,8 @@ extension NONavigation{
     }
 }
 
-
 //MARK: Dismiss operation
 extension NONavigation{
-    
     public func canDismiss() -> Bool{
         !self.viewHistory.isEmpty
     }
@@ -81,7 +79,6 @@ extension NONavigation{
             }
         }
     }
-    
 }
 
 //MARK: Present operation
@@ -114,7 +111,6 @@ extension NONavigation{
 
 //MARK: Replace operation
 extension NONavigation{
-    
     public func replace<Router:NoRouterType>(_ routerType:Router, name:String = ""){
         self.replace(routerType.onCreateView(storage: self.storage), name:name)
     }

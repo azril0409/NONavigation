@@ -31,6 +31,7 @@
 		7414023A26E5AFFA00CAE072 /* NONavigationBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414023926E5AFFA00CAE072 /* NONavigationBarManager.swift */; };
 		7414023C26E5B29300CAE072 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414023B26E5B29300CAE072 /* BackButton.swift */; };
 		7414023E26E5DBEF00CAE072 /* MenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414023D26E5DBEF00CAE072 /* MenuIcon.swift */; };
+		7414024026E607AD00CAE072 /* SizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414023F26E607AD00CAE072 /* SizePreferenceKey.swift */; };
 		74E0AF4326E0BF4B003E21B7 /* NONavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E0AF3926E0BF4B003E21B7 /* NONavigation.framework */; };
 		74E0AF4826E0BF4B003E21B7 /* NONavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0AF4726E0BF4B003E21B7 /* NONavigationTests.swift */; };
 		74E0AF4A26E0BF4B003E21B7 /* NONavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E0AF3C26E0BF4B003E21B7 /* NONavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -92,6 +93,7 @@
 		7414023926E5AFFA00CAE072 /* NONavigationBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NONavigationBarManager.swift; sourceTree = "<group>"; };
 		7414023B26E5B29300CAE072 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		7414023D26E5DBEF00CAE072 /* MenuIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIcon.swift; sourceTree = "<group>"; };
+		7414023F26E607AD00CAE072 /* SizePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceKey.swift; sourceTree = "<group>"; };
 		74E0AF3926E0BF4B003E21B7 /* NONavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NONavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E0AF3C26E0BF4B003E21B7 /* NONavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NONavigation.h; sourceTree = "<group>"; };
 		74E0AF3D26E0BF4B003E21B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				7414020C26E0C70A00CAE072 /* NORootViewCreator.swift */,
 				7414020A26E0C56800CAE072 /* NoRouterType.swift */,
 				7414020E26E0CAC900CAE072 /* SceneView.swift */,
+				7414023F26E607AD00CAE072 /* SizePreferenceKey.swift */,
 			);
 			path = NONavigation;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				7414021126E0CC3400CAE072 /* NOBottomSheetManager.swift in Sources */,
 				7414020726E0C30000CAE072 /* NOObserverStorage.swift in Sources */,
 				7414020D26E0C70A00CAE072 /* NORootViewCreator.swift in Sources */,
+				7414024026E607AD00CAE072 /* SizePreferenceKey.swift in Sources */,
 				7414023626E1D90400CAE072 /* NOMaskViewModifier.swift in Sources */,
 				7414020526E0C22800CAE072 /* NOObserverDelegate.swift in Sources */,
 				7414023E26E5DBEF00CAE072 /* MenuIcon.swift in Sources */,
